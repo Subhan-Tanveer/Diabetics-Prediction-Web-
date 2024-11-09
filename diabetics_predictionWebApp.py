@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model = pickle.load(open('D:/AI Classification Projects/Diabetes Prediction Model/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 def diabetics_prediction(input_data):
